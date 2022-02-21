@@ -1,0 +1,123 @@
+
+.footer{
+
+    background: var(--bgcolor-dark);
+    height: 252px;
+
+}
+.footer .container{
+
+    padding-top: 60px;
+    display: flex;
+}
+
+.footer .navigation-logo{
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+.navigation-logo-second-a{
+
+    color: var(--primary-color);
+
+}
+.address-list-first{
+    padding-top: 20px;
+    display: block;
+}
+
+
+.address-list-item:last child{
+    padding-bottom:60px;
+}
+
+
+.address-list-link-street{
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+    padding-bottom:9px;
+}
+
+.address-list-item:hover,
+.address-list-item:focus,
+.address-list-link:hover,
+.address-list-link:focus{
+
+    color: var(--main-color)
+
+}
+
+.address-list-item,
+.address-list-link{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 9px;
+
+}
+
+.join-us, .sign-up-text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.143;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--primary-color);
+	padding-top: 12px;
+	padding-bottom: 20px;
+
+}
+
+.contact-us-content{
+    padding-left: 70px;
+}
+.sign-up{
+    padding-left: 71px;
+}
+.sign-up-form{
+    display: flex;
+}
+.sign-up-form-input{
+    width:358px;
+    height: 50px;
+    border: 1px solid 
+    rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding-left: 16px;
+    margin-right: 12px;
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.sign-up-form-input:focus{
+    outline: none;
+	border-color: var(--primary-color)
+}
+.sign-up-form-input::placeholder{
+   color: var(--primary-color); 
+}
+.signup{
+   
+    position: relative;
+    
+}
+.sign-up-modal-form-icon{
+    position: absolute;
+    width: 24px;
+	height: 24px;
+	right: 28px;
+    top: 13px;
+}
+
+

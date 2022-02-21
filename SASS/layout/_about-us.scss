@@ -1,0 +1,32 @@
+.about-us{
+    padding-top: 0px;
+}
+.about-img-list{
+    display: flex;
+}
+.about-img-list-item-img{
+    margin-right: 39px;
+}
+.about-img-list-item{
+    position: relative;
+}
+.about-img-list-item-text{
+    
+    position: absolute;
+    font-family: var(--main-font);
+    font-style: bold;
+    width: 370px;
+    height: 70px;
+    text-align:center;
+    justify-content: center;
+    padding-top: 27px;
+    display: flex;
+    font-size: 14px;
+    line-height: 1.143;
+    text-transform: uppercase;
+    bottom: 0px;
+    color: var(--primary-color);
+    letter-spacing: 0.03em;
+    background: rgba(47, 48, 58, 0.8);
+}
+
