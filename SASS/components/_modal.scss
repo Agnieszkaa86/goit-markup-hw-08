@@ -97,17 +97,15 @@
         outline:none;
         border-color: var(--main-color);
     }
-}
 
-
-.modal-form-message::placeholder {
+    &::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.167;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+    }
 }
-
 .modal-form-policy-text{
     display: inline-block;
     width: 100%;

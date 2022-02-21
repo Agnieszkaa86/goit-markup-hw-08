@@ -18,18 +18,18 @@
     padding: 10px 41px;
     border:none;
     margin: 0 auto;
-}
-.btn-primary.order{
+
+    &.order{
     font-style: bold;
 	line-height: 1.875;
     letter-spacing: 0.06em;
     margin: 0 auto;
-}
-.btn-primary.send{
+    }
+    &.send{
     display: block;
     border: 1px solid var(--main-color);
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 40px;
-
+    }
 }

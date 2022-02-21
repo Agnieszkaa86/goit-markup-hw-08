@@ -27,8 +27,11 @@
     letter-spacing: 0.03em;
     padding-bottom: 10px;
 }
-.atributes-list-item:not(:last-child) {
+.atributes-list-item{
+    
+    &:not(:last-child) {
     padding-right: 30px;
+    }
 }
 .atributes-list-item-description{
     font-size: 14px;

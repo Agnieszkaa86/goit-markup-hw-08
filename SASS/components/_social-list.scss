@@ -1,5 +1,4 @@
-.socials-list
-{
+.socials-list{
     display: flex;
 	align-items: center;
 	justify-content: center;
@@ -39,8 +38,11 @@
 	&:focus{
     background-color: #2196f3;
     fill: var(--primary-color)
+	}
 }
-}
-.socials-list-item-break:not(:last-child) {
+.socials-list-item-break{
+	&:not(:last-child) {
 	padding-right: 10px;
-}
+	}
+}	
+
