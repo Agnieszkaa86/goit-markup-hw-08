@@ -15,11 +15,13 @@
     align-items: center;
 	justify-content: center;
     fill: #AFB1B8; 
-}
-.socials-list-link:hover,
-.socials-list-link:focus{
+
+
+	&:hover,
+	&:focus{
     background-color: var(--main-color);
     fill: var(--primary-color);
+	}
 }
 .socials-list-link-grey{
     display: flex;
@@ -32,13 +34,13 @@
     background:rgba(255, 255, 255, 0.1) ;
     fill: var(--primary-color);
     
-}
-.socials-list-link-grey:hover,
-.socials-list-link-grey:focus{
+
+	&:hover,
+	&:focus{
     background-color: #2196f3;
     fill: var(--primary-color)
 }
-
+}
 .socials-list-item-break:not(:last-child) {
 	padding-right: 10px;
 }

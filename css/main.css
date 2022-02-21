@@ -137,12 +137,7 @@ a {
   margin-bottom: 40px;
 }
 
-.modal-btn:focus,
-.modal-btn:hover {
-  color: var(--primary-color);
-  background: var(--main-color);
 }
-
 .modal-btn {
   font-weight: 500;
   font-size: 16px;
@@ -153,6 +148,11 @@ a {
   color: var(--secondary-color);
   background: #F5F4FA;
   border-radius: 4px;
+}
+
+.modal-btn:focus, .modal-btn:hover {
+  color: var(--primary-color);
+  background: var(--main-color);
 }
 
 .modal {
@@ -281,12 +281,6 @@ a {
   color: #757575;
 }
 
-.modal-form-link {
-  text-decoration-line: underline;
-  text-decoration-skip-ink: none;
-  color: var(--main-color);
-}
-
 .modal-form-policy-text::before {
   display: inline-block;
   content: "";
@@ -294,6 +288,12 @@ a {
   height: 16px;
   border-radius: 1px;
   border: 1px solid #212121;
+}
+
+.modal-form-link {
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  color: var(--main-color);
 }
 
 .modal-form-policy:checked + .modal-form-policy-text::before {
@@ -365,8 +365,7 @@ a {
   fill: #AFB1B8;
 }
 
-.socials-list-link:hover,
-.socials-list-link:focus {
+.socials-list-link:hover, .socials-list-link:focus {
   background-color: var(--main-color);
   fill: var(--primary-color);
 }
@@ -383,8 +382,7 @@ a {
   fill: var(--primary-color);
 }
 
-.socials-list-link-grey:hover,
-.socials-list-link-grey:focus {
+.socials-list-link-grey:hover, .socials-list-link-grey:focus {
   background-color: #2196f3;
   fill: var(--primary-color);
 }
@@ -803,7 +801,6 @@ a {
   padding-left: 16px;
   margin-right: 12px;
   background-color: transparent;
-  color: var(--primary-color);
 }
 
 .sign-up-form-input:focus {

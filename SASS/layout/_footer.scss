@@ -98,11 +98,11 @@
     padding-left: 16px;
     margin-right: 12px;
     background-color: transparent;
-    color: var(--primary-color);
-}
-.sign-up-form-input:focus{
+  
+    &:focus{
     outline: none;
 	border-color: var(--primary-color)
+    }
 }
 .sign-up-form-input::placeholder{
    color: var(--primary-color); 
