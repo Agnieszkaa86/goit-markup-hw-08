@@ -1,7 +1,8 @@
-.navigation-logo {
+.logo {
 	margin-right: 93px;
 	padding-top: 24px;
 	padding-bottom: 25px;
+	
 
 	.footer &{
 		font-family: var(--secondary-font);
@@ -13,9 +14,13 @@
 		color: var(--main-color);
 	}
 }
-
-.navigation-logo-second-a{
-
-    color: var(--primary-color);
+.logo__accent--text{
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.192;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
 
 }
+
