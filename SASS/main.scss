@@ -5,10 +5,23 @@
 @import './base/container';
 @import './base/section';
 
+@import './components/modal';
 @import './components/logo';
+@import './components/modal-btn';
+@import './components/close-btn';
 @import './components/backdrop';
 @import './components/primary-btn';
 @import './components/second-header';
 @import './components/socials-link';
 @import './components/socials-list';
+@import './components/sign-up';
 @import './components/third-header';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/our-team';
+@import './layout/our-clients';
+@import './layout/footer';
+
+@import './pages/portfolio';

@@ -1,0 +1,91 @@
+.footer{
+
+    background: var(--bg-dark);
+    height: 252px;
+
+        & .container{
+            padding-top: 60px;
+            display: flex;
+        }
+   
+
+        & .logo__link{
+            font-family: var(--secondary-font);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.192;
+            letter-spacing: 0.03em;
+            color: var(--main-color);
+        }
+}
+.address{
+        &__second{
+            padding-top: 20px;
+            display: block;
+        }
+        
+        &__item:last child{
+            padding-bottom:60px;
+        }
+
+        &__street{
+            font-style: normal;
+            font-size: 14px;
+            line-height: 1.714;
+            letter-spacing: 0.03em;
+            color: var(--light-color);
+            padding-bottom:9px;
+        }
+        
+        &__item{
+            display: flex;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.714;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+            padding-bottom: 9px;
+        }
+}
+.email{
+    &__link{
+        display: flex;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        padding-bottom: 9px;
+    } 
+
+            &:hover,
+            &:focus {
+                color: var(--main-color)
+            }
+        }
+
+.phone-number{
+        &__link{
+            display: flex;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.714;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+            padding-bottom: 9px;
+        }                      
+
+                &__link:hover,
+                &__link:focus{
+                    color: var(--main-color)
+                }
+    }
+.contact-us{
+    padding-left: 70px;
+}
+
+
