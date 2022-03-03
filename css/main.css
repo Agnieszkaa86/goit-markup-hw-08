@@ -727,16 +727,39 @@ a {
 }
 
 .atributes__item:not(:last-child) {
-  padding-right: 30px;
+  margin-bottom: 30px;
 }
 
 .lorem {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
   padding-bottom: 10px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+/* ##### tablet ##### */
+@media screen and (min-width: 768px) {
+  __list {
+    display: flex;
+    justify-content: center;
+  }
+  __item {
+    flex-basis: calc(100% /2- 15px);
+  }
+  __item:nth-child(2n + 1) {
+    margin-right: 30px;
+  }
+}
+
+/* ###### desktop #####*/
+@media screen and (min-width: 1200px) {
+  __list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
 
 .about {
