@@ -1,11 +1,10 @@
 
 .container{
-    width: 100%;
+    max-width: 100%;
     padding: 0 15px;
 
-        .atributes &{
-            display: flex;
-            flex-direction: column;
+        .hero &{
+           
             margin: 0 auto;
             justify-content: center;
         }
