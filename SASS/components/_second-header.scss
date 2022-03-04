@@ -1,10 +1,19 @@
-.second__header{
-    font-style: bold;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--secondary-color);
-    padding-bottom: 50px;
+.second__header {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.149;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
+	padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+	.second__header {
+		line-height: 1.171;
+		font-size: 36px;
+		padding-bottom: 50px;
+		justify-content: center;
+		text-align: center;
+	}
 }

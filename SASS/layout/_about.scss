@@ -1,18 +1,23 @@
 .about{
-    padding-top: 0px;
+        display: none;
+} 
  
+@media screen and (min-width: 1200px) {
+.about{
+    display: flex;
+    padding-bottom: 944px;
+
         &__list{
             display: flex;
+            justify-content: space-between;
         }
-        
-        &__item--img{
-            margin-right: 39px;
-        }
-
         &__item{
             position: relative;
         }
 
+        &__item--img{
+            margin-right: 39px;
+        }
         &--title{
             position: absolute;
             font-family: var(--main-font);
@@ -31,5 +36,6 @@
             letter-spacing: 0.03em;
             background: rgba(47, 48, 58, 0.8);
         }
-}
+    } 
+}   
 
