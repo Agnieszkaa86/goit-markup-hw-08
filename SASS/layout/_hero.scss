@@ -1,4 +1,4 @@
-.section__title {
+.hero__title {
 	font-weight: 900;
 	font-size: 26px;
 	line-height: 1.615;
@@ -11,7 +11,7 @@
 	padding: 0 0 30px;
 }
 
-.section__btn {
+.hero__btn{
 	padding-top: 118px;
 	padding-bottom: 118px;
 	background-image: linear-gradient(
@@ -26,7 +26,7 @@
 	(-webkit-min-device-pixel-ratio: 2),
 	(min-resolution: 192dpi),
 	(min-resolution: 2dppx) {
-	.section__btn {
+	.hero__btn {
 		background-image: linear-gradient(
 				rgba(47, 48, 58, 0.4),
 				rgba(47, 48, 58, 0.4)
@@ -35,7 +35,7 @@
 		background-size: cover;
 	}
 }
-.section__btn {
+.hero__btn{
 	padding-top: 118px;
 	padding-bottom: 118px;
 	background-image: linear-gradient(
@@ -50,7 +50,7 @@
 	(-webkit-min-device-pixel-ratio: 2),
 	(min-resolution: 192dpi),
 	(min-resolution: 2dppx) {
-	.section__btn {
+	.hero__btn{
 		background-image: linear-gradient(
 				rgba(47, 48, 58, 0.4),
 				rgba(47, 48, 58, 0.4)
@@ -59,7 +59,7 @@
 		background-size: cover;
 	}
 }
-.section__btn {
+.hero__btn {
 	padding-top: 118px;
 	padding-bottom: 118px;
 	background-image: linear-gradient(
@@ -74,76 +74,12 @@
 	(-webkit-min-device-pixel-ratio: 2),
 	(min-resolution: 192dpi),
 	(min-resolution: 2dppx) {
-	.section__btn {
+	.hero__btn {
 		background-image: linear-gradient(
 				rgba(47, 48, 58, 0.4),
 				rgba(47, 48, 58, 0.4)
 			),
 			url('../images/hero/header desktop@2x.jpg');
 		background-size: cover;
-	}
-}
-/*#### mobile######## */
-.atributes {
-	&__list {
-		align-content: center;
-	}
-	&__icon__box {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 120px;
-		margin-bottom: 30px;
-		border-radius: 4px;
-		background-color: var(--bg-light);
-		box-shadow: 0px 1px rgba(0, 0, 0, 0.25);
-	}
-
-	&__icon {
-		width: 70px;
-		height: 70px;
-	}
-	&__description {
-		font-size: 14px;
-		line-height: 1.714;
-		padding-bottom: 30px;
-		letter-spacing: 0.03em;
-		color: var(--acccent-color);
-		text-shadow: rgba(0, 0, 0, 0.25);
-	}
-	&__item:not(:last-child) {
-		margin-right: 30px;
-	}
-}
-
-.lorem {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.142;
-	letter-spacing: 0.03em;
-	padding-bottom: 10px;
-	text-align: center;
-	text-transform: uppercase;
-}
-/* ##### tablet ##### */
-
-@media screen and (min-width: 768px) {
-	.atributes__item {
-		flex-basis: calc(100% / 2- 15px);
-	}
-	&__list:nth-child(2n + 1) {
-		margin-right: 30px;
-	}
-}
-
-/* ###### desktop #####*/
-@media screen and (min-width: 1200px) {
-	&__list {
-		display: flex;
-		flex-wrap: nowrap;
-	}
-	&__list:not(:last-child) {
-		margin-right: 30px;
-		margin-bottom: 0;
 	}
 }

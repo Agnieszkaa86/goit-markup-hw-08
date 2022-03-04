@@ -1,26 +1,46 @@
 
 .container{
-    max-width: 100%;
+    width: 100%;
     padding: 0 15px;
+
+        .atributes &{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        .our-team & {
+            display: block;
+        }
+        .our-clients & {
+            display: block;
+        }
+        .footer & {
+            display: block;
+            text-align: center;
+        }
+        .portfolio & {
+            display: block;
+        }
 }
-
-
 @media screen and (min-width: 480px) {
     .container{
         max-width: 480px;
-        padding: 0 31px;
-        margin: 0 auto;
-        }
-}
-
+        padding: 0 15px;
+        justify-content: space-between;
+        display: flex;
+    }
+}    
 @media screen and (min-width: 768px) {
     .container{
         max-width: 768px;
         padding: 0 15px;
+        align-items: center;
         
-        .footer &{
+        .footer & {
             padding-top: 60px;
             display: flex;
+            flex-wrap: wrap;
             align-items: baseline;
             justify-content: space-around;
         }
@@ -31,6 +51,10 @@
     .container{
         max-width: 1200px;
         padding: 0 15px;
+
+        .about & {
+            display: block;
+        }
     
         
         .footer &{
@@ -42,22 +66,3 @@
 }
 
 
-/*
-
- .container{
-    width: 1200px;
-    padding: 0 15px;
-    margin:0 auto;
-    
-    .header &{
-            display:flex;
-            align-items: center;
-        }
-
-     .footer &{
-            padding-top: 60px;
-            display: flex;
-        }
-}       
-
- */
