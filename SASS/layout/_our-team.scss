@@ -1,6 +1,6 @@
 .our-team {
 	background-color: var(--bg-light);
-	padding-top: 94px;
+	margin: 0 auto;
 
 	&__list {
 		display: flex;
@@ -40,19 +40,17 @@
 	.our-team {
 		&__list {
 			display: flex;
-		
 			justify-content: center;
 			align-items: center;
 		}
 		&__item {
-			flex-basis: calc(100% / 2 - 15px);
 			margin-bottom: 30px;
+			flex-basis: calc(100% / 2 - 15px);
 		}
+		
 		&__item:nth-child(2n + 1) {
 			margin-right: 30px;
 		}
-
-			
 	}
 }
 @media screen and (min-width: 1200px) {
@@ -64,7 +62,7 @@
 			display: flex;
 			flex-wrap: nowrap;
 		}
-		&__item{
+		&__item {
 			margin-right: 30px;
 		}
 	}
