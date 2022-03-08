@@ -126,9 +126,10 @@ a {
     display: block;
   }
   .footer .container {
-    padding-top: 60px;
+    /*padding-top: 60px;*/
     display: flex;
     text-align: left;
+    margin-left: 200px;
   }
 }
 
@@ -834,6 +835,12 @@ a {
   margin-bottom: 30px;
 }
 
+.our-team__img {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
 .member--name {
   font-weight: 500;
   font-size: 16px;
@@ -1081,8 +1088,8 @@ a {
   .contact-us {
     padding-left: 70px;
   }
-  .sign-up {
-    padding-left: 78px;
+  .sign-up--form {
+    display: flex;
   }
   .sign-up__form--input {
     width: 358px;
