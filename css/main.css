@@ -99,7 +99,6 @@ a {
   .container {
     align-items: center;
     justify-content: space-between;
-    /*  display: flex;*/
   }
 }
 
@@ -126,7 +125,6 @@ a {
     display: block;
   }
   .footer .container {
-    /*padding-top: 60px;*/
     display: flex;
     text-align: left;
     margin-left: 200px;
@@ -1188,7 +1186,6 @@ a {
 
 
 */
-/*@media screen and (min-width: 320px) and (max-width: 479px){*/
 .menu {
   padding-top: 60px;
 }
@@ -1217,7 +1214,6 @@ a {
 .photo__catalog {
   position: relative;
   overflow: hidden;
-  /*display:flex;*/
 }
 
 .photo__item:hover .photo__description {
