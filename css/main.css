@@ -269,14 +269,14 @@ a {
 }
 
 .logo {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  margin-right: 15px;
+  padding-top: 26x;
+  padding-bottom: 26px;
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 1.192;
+  font-size: 24px;
+  line-height: 1.167;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
@@ -293,6 +293,23 @@ a {
 
 .logo__accent--light {
   color: var(--light-color);
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    margin-right: 83px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.192;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .modal__btn {
@@ -504,10 +521,9 @@ a {
 
 .header {
   border-bottom: 1px solid #ececec;
-}
-
-.header .address {
-  margin-left: auto;
+  /* & .address{
+            margin-left: auto;
+        }*/
 }
 
 .navigation {
