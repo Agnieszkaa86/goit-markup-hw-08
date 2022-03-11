@@ -1,7 +1,7 @@
-.logo {
+.logo{	
 	margin-right: 15px;
-	padding-top: 26x;
-	padding-bottom: 26px;
+	padding-top: 16x;
+	padding-bottom: 16px;
 	font-family: var(--secondary-font);
 	font-style: normal;
 	font-weight: bold;
@@ -14,7 +14,7 @@
 		font-family: var(--secondary-font);
 		font-style: normal;
 		font-weight: bold;
-		font-size: 26px;
+		font-size: 24px;
 		line-height: 1.192;
 		letter-spacing: 0.03em;
 		color: var(--secondary-color);
@@ -34,6 +34,7 @@
 }
 @media screen and (min-width: 1200px) {
 	.logo {
+		margin-right: 93px;
 		font-size: 26px;
 		line-height: 1.192;
 		padding-top: 24px;
