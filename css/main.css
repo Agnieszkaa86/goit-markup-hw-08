@@ -677,7 +677,9 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .menu-mobile {
+  .mobile,
+  .mobile-hamburger,
+  .menu-mobile__close--btn {
     display: none;
   }
   .navigation {
@@ -711,7 +713,7 @@ a {
     height: 4px;
     border-radius: 2px;
     background: var(--main-color);
-    top: 32px;
+    top: 30px;
     right: 0;
     transition: width 250ms, left 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -734,7 +736,7 @@ a {
     height: 4px;
     border-radius: 2px;
     background: var(--main-color);
-    top: 32px;
+    top: 30px;
     right: 0;
     transition: width 250ms, left 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -790,7 +792,9 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .menu-mobile {
+  .mobile,
+  .mobile-hamburger,
+  .menu-mobile__close--btn {
     display: none;
   }
   .navigation {
