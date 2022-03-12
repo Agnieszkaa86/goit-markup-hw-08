@@ -36,37 +36,37 @@
 	}
 }
 /*##### tablet ##### */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 	.hero__btn {
 		padding-top: 118px;
 		padding-bottom: 118px;
 		background-image: linear-gradient(
-			rgba(47, 48, 58, 0.4),
-			rgba(47, 48, 58, 0.4)
-		),
-		url('../images/hero/header-tablet.jpg');
+				rgba(47, 48, 58, 0.4),
+				rgba(47, 48, 58, 0.4)
+			),
+			url('../images/hero/header-tablet.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 
-		@media (min-device-pixel-ratio: 2),
-				(-webkit-min-device-pixel-ratio: 2),
-				(min-resolution: 192dpi),
-				(min-resolution: 2dppx) {
-				.hero__btn {
-					background-image: linear-gradient(
-						rgba(47, 48, 58, 0.4),
-						rgba(47, 48, 58, 0.4)
-							),
-						url('../images/hero/header-tablet@2x.jpg');
-						background-size: cover;
-				}
-			}
-}			
+	@media (min-device-pixel-ratio: 2),
+		(-webkit-min-device-pixel-ratio: 2),
+		(min-resolution: 192dpi),
+		(min-resolution: 2dppx) {
+		.hero__btn {
+			background-image: linear-gradient(
+					rgba(47, 48, 58, 0.4),
+					rgba(47, 48, 58, 0.4)
+				),
+				url('../images/hero/header-tablet@2x.jpg');
+			background-size: cover;
+		}
+	}
+}
 
 /*	##### DESKTOP ##### */
-@media screen and (min-width: 1200px){
-	.hero__title{
+@media screen and (min-width: 1200px) {
+	.hero__title {
 		max-width: 692px;
 		font-size: 44px;
 		line-height: 1.363;
@@ -78,57 +78,55 @@
 		background-image: linear-gradient(
 				rgba(47, 48, 58, 0.4),
 				rgba(47, 48, 58, 0.4)
-					),
-				url("../images/hero/header-desktop.jpg");
-				background-repeat: no-repeat;
-				background-size: cover;
-				max-width: 1600px;
-				margin: 0 auto;
+			),
+			url('../images/hero/header-desktop.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		max-width: 1600px;
+		margin: 0 auto;
 	}
-		@media (min-device-pixel-ratio: 2),
-				(-webkit-min-device-pixel-ratio: 2),
-				(min-resolution: 192dpi),
-				(min-resolution: 2dppx) {
-				.hero__btn {
-					background-image: linear-gradient(
+	@media (min-device-pixel-ratio: 2),
+		(-webkit-min-device-pixel-ratio: 2),
+		(min-resolution: 192dpi),
+		(min-resolution: 2dppx) {
+		.hero__btn {
+			background-image: linear-gradient(
 					rgba(47, 48, 58, 0.4),
 					rgba(47, 48, 58, 0.4)
-						),
-					url('../images/hero/header-desktop@2x.jpg');
-					background-size: cover;
-				}
-			}
-}			
+				),
+				url('../images/hero/header-desktop@2x.jpg');
+			background-size: cover;
+		}
+	}
+}
 /*#### mobile######## */
-.atributes{ 
-		&__list {
-			align-content: center;
-	
-		}
-		&__icon__box {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			height: 120px;
-			margin-bottom: 30px;
-			border-radius: 4px;
-			background-color: var(--bg-light);
-			box-shadow: 0px 1px rgba(0, 0, 0, 0.25);
-		}
+.atributes {
+	&__list {
+		align-content: center;
+	}
+	&__icon__box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 120px;
+		margin-bottom: 30px;
+		border-radius: 4px;
+		background-color: var(--bg-light);
+		box-shadow: 0px 1px rgba(0, 0, 0, 0.25);
+	}
 
-		&__icon {
-			width: 70px;
-			height: 70px;
-		}
-		&__description {
-			font-size: 14px;
-			line-height: 1.714;
-			padding-bottom: 30px;
-			letter-spacing: 0.03em;
-			color: var(--acccent-color);
-			text-shadow: rgba(0, 0, 0, 0.25);
-		}
-		
+	&__icon {
+		width: 70px;
+		height: 70px;
+	}
+	&__description {
+		font-size: 14px;
+		line-height: 1.714;
+		padding-bottom: 30px;
+		letter-spacing: 0.03em;
+		color: var(--acccent-color);
+		text-shadow: rgba(0, 0, 0, 0.25);
+	}
 }
 
 .lorem {
@@ -139,25 +137,24 @@
 	padding-bottom: 10px;
 	text-align: left;
 	text-transform: uppercase;
-
 }
 /* ##### tablet ##### */
 
 @media screen and (min-width: 768px) {
-	.atributes{
+	.atributes {
 		& {
 			padding-top: 60px;
 			padding-bottom: 60px;
 		}
-		&__list{
+		&__list {
 			display: flex;
 			flex-wrap: wrap;
 			align-content: center;
 		}
-		&__item{
+		&__item {
 			flex-basis: calc(100% / 2 - 15px);
 		}
-	
+
 		&__item:nth-child(2n + 1) {
 			margin-right: 30px;
 		}
@@ -166,11 +163,10 @@
 
 /* ###### desktop #####*/
 @media screen and (min-width: 1200px) {
-	.atributes{
-
+	.atributes {
 		&__list {
-		display: flex;
-		flex-wrap: nowrap;
+			display: flex;
+			flex-wrap: nowrap;
 		}
 		&__item:not(:last-child) {
 			margin-right: 30px;

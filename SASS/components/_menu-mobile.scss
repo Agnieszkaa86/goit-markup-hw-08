@@ -1,60 +1,60 @@
-.menu-mobile {
-	background-color: var(--light-color);
-	flex-direction: column;
-	
-	&__open{
-		position:absolute;
-		width: 40px;
-		height: 40px;
-		top: 21px;
-		right:25px;
-		background-color: transparent;
-		border: none;
-		cursor:pointer;
-	}
-	&__close--btn{
-		position:absolute;
-		top: 23px;
-		right: 30px;
-		width: 30px;
-		border-radius: 50%;
-		height: 30px;
-		cursor: pointer;
-		background-color: var(--light-color);
-	}
-
-	&__list {
-		margin-top: 48px;
-		margin-bottom: 302px;
-		margin-left: 40px;
-	}
-
-	&__item:not(:last-child) {
-		margin-bottom: 32px;
-	}
-	&__link {
-		color: var( --secondary-color);
-		font-size: 40px;
-		font-weight: 500;
-		line-height: 1.175;
-		letter-spacing: 0.02em;
-	}
-	&__link--active {
-			color: var(--main-color);
+.mobile-hamburger {
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	right: 20px;
+	top: 10px;
+	line-height: 0;  
+  
+		&:hover {
+	  		fill: var(--main-color);
 		}
-	
+  
 	&__icon {
-		width: 24px;
-		height: 16px;
-		fill: var(--secondary-color);
-
-			&:focus,
-			&:hover {
-				fill: main-color;
-			}
-	}	
+	  		width: 40px;
+	  		height: 20px;
+	}
 }
+.mobile{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background-color: #fff;
+	margin: 0 auto;
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(0) scale(1);
+	transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+		&__wraper{
+			padding: 48px 40px;
+		}
+}
+.menu-mobile__close--btn{
+	position:absolute;
+	width: 20px;
+	height: 20px;
+	top: 22px;
+	right: 23px;
+	border: none;
+	background-color: transparent;
+	line-height: 0;
+
+		&:focus,
+		&:hover {
+			fill: var(--main-color);
+		}
+}
+.menu-open{
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  }	
 .mobile-address {
 	&__list {
 		margin-bottom: 64px;
