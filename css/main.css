@@ -690,7 +690,7 @@ a {
   }
   .navigation__item {
     margin-right: 46px;
-    padding-top: 32px;
+    padding-top: 20px;
   }
   .navigation__item::not(last-child) {
     margin-right: 60px;
@@ -713,7 +713,7 @@ a {
     height: 4px;
     border-radius: 2px;
     background: var(--main-color);
-    top: 30px;
+    top: 37px;
     right: 0;
     transition: width 250ms, left 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -736,7 +736,7 @@ a {
     height: 4px;
     border-radius: 2px;
     background: var(--main-color);
-    top: 30px;
+    top: 35px;
     right: 0;
     transition: width 250ms, left 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
