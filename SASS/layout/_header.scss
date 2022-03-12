@@ -5,16 +5,13 @@
 		justify-content: flex-end;
 	}
 }
-
-
 .navigation,
-.address-contact,
-.mobile-socials__list {
+.address-contact {
 	display: none;
 }
 
 @media screen and (min-width: 768px){
-	.menu__hamburger{
+	.menu-mobile{
         display: none;
     }
 
@@ -53,7 +50,7 @@
 			height: 4px;
 			border-radius: 2px;
 			background: var(--main-color);
-			top: 44px;
+			top: 42px;
 			right: 0;
 			transition: width 250ms, left 250ms cubic-bezier(0.4, 0, 0.2, 1);
 		}
@@ -147,6 +144,9 @@
 	}
 }
 @media screen and (min-width: 1200px) {
+	.menu-mobile{
+		display: none;
+	}
 	.navigation {
 		display: flex;
 		

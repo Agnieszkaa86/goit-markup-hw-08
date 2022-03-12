@@ -1,16 +1,26 @@
 .menu-mobile {
 	background-color: var(--light-color);
 	flex-direction: column;
-
+	
 	&__open{
+		position:absolute;
 		width: 40px;
 		height: 40px;
+		top: 21px;
+		right:25px;
 		background-color: transparent;
 		border: none;
+		cursor:pointer;
 	}
-	&__close--btn {
-		top: 13px;
-		right: 20px;
+	&__close--btn{
+		position:absolute;
+		top: 23px;
+		right: 30px;
+		width: 30px;
+		border-radius: 50%;
+		height: 30px;
+		cursor: pointer;
+		background-color: var(--light-color);
 	}
 
 	&__list {
@@ -28,11 +38,11 @@
 		font-weight: 500;
 		line-height: 1.175;
 		letter-spacing: 0.02em;
-
-		&--active {
+	}
+	&__link--active {
 			color: var(--main-color);
 		}
-	}
+	
 	&__icon {
 		width: 24px;
 		height: 16px;
@@ -42,38 +52,41 @@
 			&:hover {
 				fill: main-color;
 			}
-		}	
+	}	
 }
-
 
 .mobile-address {
 	&__list {
 		margin-bottom: 64px;
 		margin-left: 40px;
+	}
 
-		&__link {
+	&__link {
 			color: var(--acccent-color);
 			font-size: 24px;
 			font-weight: 500;
 			line-height: 1.167;
 			letter-spacing: 0.02em;
-		}
-		&__link--color {
-			color: var(--main-color);
-			font-size: 34px;
-			font-weight: 500;
-			line-height: 1.176;
-			letter-spacing: 0.02em;
-		}
-		&__item:not(:last-child) {
+	}
+	
+	&__item:not(:last-child) {
 			margin-bottom: 32px;
-		}
 	}
 }
+.address__link--color {
+	color: var(--main-color);
+	font-size: 34px;
+	font-weight: 500;
+	line-height: 1.176;
+	letter-spacing: 0.02em;
+}
+
 .mobile-socials {
+	&__list{
 	display: flex;
 	margin-left: 40px;
-
+	margin-bottom: 48px;;
+	}
 	&__link {
 		color: var(--main-color);
 		font-size: 18px;
@@ -85,7 +98,7 @@
 		margin-right: 20px;
 		position: relative;
 	}
-	&:not(:first-child)::after {
+		&:not(:first-child)::after {
 		position: absolute;
 		top: 0;
 		left: -10px;
@@ -94,5 +107,5 @@
 		width: 1px;
 		height: 22px;
 		background-color: rgba(33, 33, 33, 0.2);
-	}
+		}
 }

@@ -19,8 +19,9 @@
 <body>
     <header class="header">
             <div class="container">
+                <a class="logo link" href="index.html" rel="home">Web<span class="logo__accent--dark">Studio</span></a>
                 <nav class="navigation">
-                    <a class="logo link" href="index.html" rel="home">Web<span class="logo__accent--dark">Studio</span></a>
+                
                     <ul class="navigation__list list">
                             <li class="navigation__item">
                             <a class="navigation__link active__link
@@ -59,8 +60,8 @@
                     </svg>
                 </button>
            </div>
-           <div class="menu-mobile backdrop is-hidden" mobile-menu>
-               <button type="button" class="close-menu-btn menu-mobile__close-btn">
+           <div menu-mobile class="menu-mobile backdrop is-hidden" mobile-menu>
+               <button type="button" class="menu-mobile__close--btn" mobile-menu-close>
                    <svg class="close--icon">
                        <use href="images/sprite.svg#icon-cross"></use>
                    </svg>
@@ -78,12 +79,12 @@
              <a class="menu-mobile__link link" href="#">Kontakt</a>
         </li>
    </ul>    
-    <ul class="menu-mobile-address__list list">
-            <li class="menu-mobile-address__item">
-                <a class="menu-mobile-address__link mobile-address__link--color link" href="tel:+48111111111">+48 111 111 111</a>
+    <ul class="mobile-address__list list">
+            <li class="mobile-address__item">
+                <a class="mobile-address__link address__link--color link" href="tel:+48111111111">+48 111 111 111</a>
             </li>
-            <li class="menu-mobile-address__item">
-                <a class="menu-mobile-address__link" href="malito:info@devstudio.com">info@devstudio.com</a>
+            <li class="mobile-address__item">
+                <a class="mobile-address__link" href="malito:info@devstudio.com">info@devstudio.com</a>
             </li>
     </ul>
     <ul class="mobile-socials__list list">
@@ -574,7 +575,7 @@
 
     </div> 
         <script src="./js/modal.js"></script>
-        <script src="js/mobile-menu.js"></script>
+        <script src="./js/menu-mobile.js"></script>
 </body>
 
 </html>
