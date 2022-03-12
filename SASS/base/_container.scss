@@ -2,7 +2,10 @@
 .container{
     padding: 0 15px;
     min-width: 320px;
-      
+        .header & {
+            display: flex;
+            
+        }
         .hero &{
             margin: 0 auto;
             justify-content: center;
