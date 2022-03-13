@@ -315,7 +315,7 @@ a {
   fill: var(--main-color);
 }
 
-.hamburger--icon {
+.hamburger__icon {
   width: 25px;
   height: 25px;
 }
