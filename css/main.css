@@ -131,6 +131,9 @@ a {
     padding: 0 15px;
     margin: 0 auto;
   }
+  .header .container {
+    display: flex;
+  }
   .about .container {
     display: block;
   }
@@ -843,17 +846,23 @@ a {
   .navigation__item:not(:last-child) {
     margin-right: 46px;
   }
-  .email {
-    margin-left: auto;
-    margin-right: 50px;
-    margin-bottom: 10px;
-  }
   .address-contact {
     display: flex;
+  }
+  .address__list {
+    display: flex;
+    flex-direction: row;
     align-items: center;
   }
   .phone-number {
     margin-right: 48px;
+    font-size: 14px;
+  }
+  .email {
+    margin-left: auto;
+    margin-right: 50px;
+    margin-bottom: 0;
+    font-size: 14px;
   }
   .envelope__icon {
     width: 16px;
@@ -886,13 +895,13 @@ a {
   padding-top: 118px;
   padding-bottom: 118px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/header-mobile.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero__btn {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/header-mobile@2x.jpg");
+  .hero {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/header-mobile@2x.jpg");
     background-size: cover;
   }
 }
@@ -900,17 +909,14 @@ a {
 /*##### tablet ##### */
 @media screen and (min-width: 768px) {
   .hero__btn {
-    padding-top: 118px;
-    padding-bottom: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/header-tablet.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero__btn {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/header-tablet@2x.jpg");
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/header-tablet@2x.jpg");
     background-size: cover;
   }
 }
@@ -1500,6 +1506,10 @@ a {
   padding-top: 4px;
   padding-bottom: 20px;
   padding-left: 24px;
+}
+
+.menu-mobile__close--btn {
+  display: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
