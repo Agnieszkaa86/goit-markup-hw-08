@@ -300,8 +300,7 @@ a {
   }
 }
 
-.hamburger,
-.hamburger--second {
+.hamburger {
   position: absolute;
   background-color: transparent;
   border: none;
@@ -312,13 +311,11 @@ a {
   line-height: 0;
 }
 
-.hamburger:hover,
-.hamburger--second:hover {
+.hamburger:hover {
   fill: var(--main-color);
 }
 
-.hamburger__icon,
-.hamburger--second__icon {
+.hamburger__icon {
   width: 25px;
   height: 25px;
 }
@@ -1419,11 +1416,6 @@ a {
 
 
 */
-.hamburger--second,
-.mobile__close--btn {
-  display: none;
-}
-
 .menu {
   padding-top: 60px;
 }
@@ -1512,11 +1504,6 @@ a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .mobile,
-  .hamburger,
-  .mobile__close--btn {
-    display: none;
-  }
   .menu__list {
     justify-content: center;
   }
@@ -1529,10 +1516,6 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .hamburger,
-  .mobile__close--btn {
-    display: none;
-  }
   .menu__list {
     justify-content: center;
   }
