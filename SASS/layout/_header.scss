@@ -11,11 +11,11 @@
 }
 
 @media screen and (min-width: 768px) {
-	.mobile,
+	/*.mobile,
 	.mobile-hamburger,
 	.menu-mobile__close--btn {
 		display: none;
-	}
+	}*/
 
 	.navigation {
 		display: flex;
@@ -162,7 +162,7 @@
 			margin-right: 46px;
 		}
 	}
-	.contacts{
+	.contacts {
 		display: flex;
 	}
 	.address__list {
