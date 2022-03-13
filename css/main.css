@@ -706,12 +706,12 @@ a {
   border-bottom: 1px solid #ececec;
 }
 
-.header .address-contact {
+.header .contacts {
   justify-content: flex-end;
 }
 
 .navigation,
-.address-contact {
+.contacts {
   display: none;
 }
 
@@ -780,7 +780,7 @@ a {
     right: 0;
     transition: width 250ms, left 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .address-contact {
+  .contacts {
     margin-left: auto;
   }
   .email {
@@ -846,12 +846,11 @@ a {
   .navigation__item:not(:last-child) {
     margin-right: 46px;
   }
-  .address-contact {
+  .contacts {
     display: flex;
   }
   .address__list {
     display: flex;
-    flex-direction: row;
     align-items: center;
   }
   .phone-number {
@@ -1508,11 +1507,14 @@ a {
   padding-left: 24px;
 }
 
+.mobile,
+.mobile-hamburger,
 .menu-mobile__close--btn {
   display: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mobile,
   .hamburger,
   .mobile__close--btn {
     display: none;

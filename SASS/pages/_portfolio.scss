@@ -82,12 +82,14 @@
     
         }
 }
-.menu-mobile__close--btn{
-    display: none;
-}
+    .mobile,
+	.mobile-hamburger,
+	.menu-mobile__close--btn {
+		display: none;
+	}
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
-    
+    .mobile,
 	.hamburger,
 	.mobile__close--btn {
 		display: none;
