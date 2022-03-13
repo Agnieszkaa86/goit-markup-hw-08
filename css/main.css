@@ -716,7 +716,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .mobile-hamburger,
+  .hamburger,
   .menu-mobile__close--btn {
     display: none;
   }
