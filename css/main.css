@@ -300,7 +300,8 @@ a {
   }
 }
 
-.hamburger {
+.hamburger,
+.hamburger--second {
   position: absolute;
   background-color: transparent;
   border: none;
@@ -311,11 +312,13 @@ a {
   line-height: 0;
 }
 
-.hamburger:hover {
+.hamburger:hover,
+.hamburger--second:hover {
   fill: var(--main-color);
 }
 
-.hamburger__icon {
+.hamburger__icon,
+.hamburger--second__icon {
   width: 25px;
   height: 25px;
 }
@@ -1416,9 +1419,8 @@ a {
 
 
 */
-.mobile,
-.mobile-hamburger,
-.menu-mobile__close--btn {
+.hamburger--second,
+.mobile__close--btn {
   display: none;
 }
 
