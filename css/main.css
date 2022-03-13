@@ -1416,12 +1416,6 @@ a {
 
 
 */
-.hamburger,
-.mobile,
-.mobile__close--btn {
-  display: none;
-}
-
 .menu {
   padding-top: 60px;
 }
@@ -1510,11 +1504,6 @@ a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .mobile,
-  .hamburger,
-  .mobile__close--btn {
-    display: none;
-  }
   .menu__list {
     justify-content: center;
   }
@@ -1527,10 +1516,6 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .hamburger,
-  .mobile__close--btn {
-    display: none;
-  }
   .menu__list {
     justify-content: center;
   }
