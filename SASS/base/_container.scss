@@ -1,12 +1,18 @@
 
 .container{
-    padding: 0 15px;
+    width: 100%;
     min-width: 320px;
+    padding: 0 15px;
+  
+   
         .header & {
             display: flex;
             
         }
         .hero &{
+            height: 400px;
+            display: flex;
+            flex-direction: column;
             margin: 0 auto;
             justify-content: center;
         }
@@ -28,7 +34,7 @@
     .container{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-between; 
     }
 }    
 @media screen and (min-width: 768px) {
@@ -53,9 +59,8 @@
         padding: 0 15px;
         margin: 0 auto;
 
-        .header &{
-            height: 600px;;
-            // display: flex;
+        .hero &{
+            height: 600px;
         }
 
         .about & {
